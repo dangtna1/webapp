@@ -5,7 +5,7 @@ const SocketContext = createContext();
 
 const SocketProvider = ({ children }) => {
   // const socket = io("http://localhost:8400");
-  const socket = io("https://cacao-care.herokuapp.com");
+  const socket = io("https://hello867.onrender.com/");
   useEffect(() => {
     socket.on("connect", () => {
       console.log("Connected to server successfully");
