@@ -1,0 +1,9 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-height: 500px;
+  flex: 1;
+  canvas {
+    width: 100% !important;
+  }
+}
